@@ -1,4 +1,6 @@
 ﻿
+// Module for https://learn.microsoft.com/ko-kr/training/modules/csharp-write-first/
+
 namespace MyStudy;
 
 public class Chapter1

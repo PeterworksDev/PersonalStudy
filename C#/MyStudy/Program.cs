@@ -2,12 +2,13 @@
 namespace MyStudy;
 
 public class Program {
-    
+
     // static Chapter1 chapter1 = new Chapter1();
     // static Chapter2 chapter2 = new Chapter2();
     // static DotnetWithPackage dotnetWithPackage = new DotnetWithPackage();
     // static DotnetDebug dotnetDebug = new DotnetDebug();
-    static DotnetFile dotnetFile = new DotnetFile();
+    // static DotnetFile dotnetFile = new DotnetFile();
+    static StudentGrade studentGrade = new StudentGrade();
 
     public static void Main(string[] args)
     {
@@ -24,7 +25,9 @@ public class Program {
         // int result = dotnetDebug.Fibonacci(6);
         // Console.WriteLine($"Fibonacci(6) = {result}");
 
-        dotnetFile.CreateDirandFile("SampleFolder", "SampleFile");
+        //dotnetFile.CreateDirandFile("SampleFolder", "SampleFile");
+
+        studentGrade.calculateStudentGrades();
 
     }
 }
